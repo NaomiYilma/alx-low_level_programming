@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * function_main - using puts to print 
+ *main - main point
+ *return - should end with the value 0 
  */
 int main(void)
 {
