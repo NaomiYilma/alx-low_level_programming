@@ -6,9 +6,10 @@
  */
 int main(void)
 {
-	char ch;
+	char alphabet[26] = "zyxwvutsrqponmlkjhgfedcba"
+	int i;
 
-	for (ch = 'z'; ch = 'a'; ch--)
+	for (i = 0; i < 26; i++)
 	{
 		putchar(ch);
 	}
