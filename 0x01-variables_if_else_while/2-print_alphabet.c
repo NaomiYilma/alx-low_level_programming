@@ -1,18 +1,19 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - Entry point
  *
- * Description: 'using if'
+ * Description: 'using putchar'
  *
- * Return: 'is positive' if n>0, 'is zero' if n=0, 'is negative' is n<0
+ * Return: 'Always return zero'
  */
 int main(void)
 {
-        int n;
+	char ch = {a..z};
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        printf("n>0 %s\n", "is positive")
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+
         return (0);
 }
