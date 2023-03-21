@@ -6,13 +6,14 @@
  */
 int main(void)
 {
-	char str1[] = "_";
-	char str2[] = "putchar";
-
-	{
-		strcpy (str1, str2);
-		putchar("strcpy (str1, str2): %s\n");
-	}
-		putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
