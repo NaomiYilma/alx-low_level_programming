@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-	char ch;
+	char str1[] = "_";
+	char str2[] = "putchar";
 
-	for (ch = '_putchar')
 	{
-		putchar(ch);
+		strcpy (str1, str2);
+		putchar("strcpy (str1, str2): %s\n");
 	}
 		putchar('\n');
 	return (0);
