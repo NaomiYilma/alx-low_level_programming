@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - Entry point 
+ * print_alphabet_x10 - Entry point
  *
- * Return: Always returns 0 for success 
+ * Return: Always returns 0 for success
  */
 void print_alphabet_x10(void)
 
@@ -11,7 +11,8 @@ void print_alphabet_x10(void)
 
 	while (ch <= 'z')
 	{
-		_putchar(ch); ch++;
+		_putchar(ch);
+		ch++;
 	}
 	_putchar('\n');
 }
