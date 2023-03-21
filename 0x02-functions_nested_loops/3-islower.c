@@ -8,7 +8,7 @@
 
 int _islower(int c)
 {
-	char c = 'a';
+	int c = 'a';
 
 	if (c >= 'a' && c <= 'z')
 	{
@@ -19,5 +19,5 @@ int _islower(int c)
 	{
 		_putchar('0');
 	}
-	putchar('\n')
+	_putchar('\n');
 }
