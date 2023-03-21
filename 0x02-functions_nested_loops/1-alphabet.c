@@ -5,7 +5,6 @@
  * Return: Always return 0 for sucess
  */
 void print_alphabet(void);
-
 {
 	char ch;
 
