@@ -5,7 +5,6 @@
  * Return: 0 for success
  */
 void print_numbers(void)
-
 {
 	char ch;
 
