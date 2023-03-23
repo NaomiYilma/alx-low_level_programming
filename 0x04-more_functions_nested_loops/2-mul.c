@@ -5,13 +5,9 @@
  * @a: integer to be multiplied
  * @b: integer to be multiplied
  *
- * Return: Always 0 for success
+ * Return: solution
  */
 int mul(int a, int b)
 {
-	int mul = a * b;
-	{
-		putchar(mul);
-	}
-	return (0);
+	return (a * b);
 }
