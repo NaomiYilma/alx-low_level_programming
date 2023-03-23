@@ -1,8 +1,8 @@
-#include "main.h"
+# include "main.h"
 /**
  * print_numbers - prints numbers 0 to 9
  *
- * Return: 0 for success
+ * Return: void
  */
 void print_numbers(void)
 {
