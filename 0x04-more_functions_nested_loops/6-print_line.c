@@ -16,9 +16,8 @@ void print_line(int n)
 		{
 			putchar('_');
 		}
-	putchar ('\n');
 	}
-	else if (n <= 0)
+	else
 	{
 		putchar('\n');
 	}
