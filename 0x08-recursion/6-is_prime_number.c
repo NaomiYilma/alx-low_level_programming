@@ -8,8 +8,6 @@
  */
 int is_prime_number(int n)
 {
-	int m = 2;
-
 	if (n > 2)
 	{
 		if (n / n != 1)
@@ -24,5 +22,5 @@ int is_prime_number(int n)
 	else
 	{
 		return (0);
-	}	
+	}
 }
