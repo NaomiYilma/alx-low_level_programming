@@ -7,15 +7,24 @@
  *
  * Return: NULL if size = 0
  */
-char *create_array(unsigned int size, __attribute__((unused)) char c)
+char *create_array(unsigned int size, char c)
 {
-	if (size == 0)
+	unsigned int n;
+	char *buffer;
+
+	buffer = malloc(size * sizeof(char));
+
+	if (size == 0 || buffer == NULL)
 	{
 		return (NULL);
 	}
-	else if (size > 0)
+	else
 	{
-		malloc(size * sizeof(char));
+		for (n = 0; n < size; n++)
+		{
+			buffer[n] = c;
+		}
+	return (buffer);
 	}
 	return (0);
 }
